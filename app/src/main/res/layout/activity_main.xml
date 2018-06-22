@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/btnSetting"
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        android:text="Set Accessibility"
+        android:layout_marginTop="16sp"/>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        android:text="SEND USSD"
+        android:layout_marginTop="16sp"/>
+
+    <TextView
+        android:id="@+id/txtResponse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16sp"/>
+
+</LinearLayout>

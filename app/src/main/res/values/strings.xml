@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">USSD_Sender</string>
+    
+    <string name="accessibility_service_description">This service records pop ups sent by your mobile operator, and saves them in USSD Sender App. It is absolutely safe to use.</string>
+</resources>
